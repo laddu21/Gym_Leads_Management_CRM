@@ -5,7 +5,7 @@ services:
     name: gym-api
     runtime: node
     rootDir: src/gym-api
-    buildCommand: npm install
+    buildCommand: bash -lc "npm install"
     startCommand: npm start
     buildFilter:
       paths:
@@ -28,7 +28,7 @@ services:
     name: gym-admin
     runtime: static
     rootDir: src/gym-admin
-    buildCommand: npm install && npm run build
+    buildCommand: bash -lc "npm install && npm run build"
     publishPath: dist
     buildFilter:
       paths:
@@ -41,7 +41,7 @@ services:
     name: gympoint
     runtime: static
     rootDir: src/gympoint
-    buildCommand: npm install && npm run build
+    buildCommand: bash -lc "npm install && npm run build"
     publishPath: build
     buildFilter:
       paths:
