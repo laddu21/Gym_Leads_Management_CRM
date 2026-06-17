@@ -29,6 +29,7 @@ services:
     runtime: static
     rootDir: src/gym-admin
     buildCommand: npm install && npm run build
+    publishPath: dist
     buildFilter:
       paths:
         - src/gym-admin/**
@@ -41,6 +42,7 @@ services:
     runtime: static
     rootDir: src/gympoint
     buildCommand: npm install && npm run build
+    publishPath: build
     buildFilter:
       paths:
         - src/gympoint/**
