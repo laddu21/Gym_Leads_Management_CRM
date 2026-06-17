@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "src",
+    "scripts"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules",
+    "data",
+    "README.md"
+  ],
+  "execMap": {
+    "js": "node"
+  }
+}

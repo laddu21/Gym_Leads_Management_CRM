@@ -1,0 +1,490 @@
+{
+  "gyms": [
+    {
+      "gymName": "Test Gym",
+      "email": "test@example.com",
+      "password": "secret"
+    },
+    {
+      "gymName": "New Gym",
+      "email": "new@example.com",
+      "password": "secret"
+    },
+    {
+      "gymName": "gym",
+      "email": "rabbanisk162002@gmail.com",
+      "password": "@123"
+    },
+    {
+      "gymName": "Self Control",
+      "email": "ladduu0107@gmail.com",
+      "password": "Rabbani@23"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "2fa4064d-53d0-4435-8718-eae554a45c6e",
+      "name": "Shaik Rabbani",
+      "phone": "6309392793",
+      "email": "",
+      "category": "premium",
+      "label": "12 Months",
+      "price": 17499,
+      "original": null,
+      "tag": null,
+      "preferredDate": "2026-05-30T00:00:00.000Z",
+      "paymentMode": "upi",
+      "remarks": "12 M",
+      "createdAt": "2026-05-30T10:53:33.509Z",
+      "updatedAt": "2026-05-30T10:53:33.509Z"
+    },
+    {
+      "id": "0ba0927b-f6df-455a-a98f-ff85af73428f",
+      "name": "Plan Template",
+      "phone": "0000000000",
+      "email": "",
+      "category": "premium",
+      "label": "1 Month Premium",
+      "price": 3500,
+      "original": null,
+      "tag": null,
+      "preferredDate": null,
+      "remarks": "",
+      "createdAt": "2026-06-17T00:14:03.869Z",
+      "updatedAt": "2026-06-17T00:14:03.869Z"
+    },
+    {
+      "id": "8416bcf8-f774-48e3-876a-bd075c82d350",
+      "name": "Plan Template",
+      "phone": "0000000000",
+      "email": "",
+      "category": "premium",
+      "label": "3 Months Premium",
+      "price": 6500,
+      "original": null,
+      "tag": null,
+      "preferredDate": null,
+      "remarks": "",
+      "createdAt": "2026-06-17T00:14:03.885Z",
+      "updatedAt": "2026-06-17T00:14:03.885Z"
+    },
+    {
+      "id": "b108d511-85e5-4fd2-8087-b5d023bcd007",
+      "name": "Plan Template",
+      "phone": "0000000000",
+      "email": "",
+      "category": "premium",
+      "label": "6 Months Premium",
+      "price": 10500,
+      "original": null,
+      "tag": null,
+      "preferredDate": null,
+      "remarks": "",
+      "createdAt": "2026-06-17T00:14:03.892Z",
+      "updatedAt": "2026-06-17T00:14:03.892Z"
+    }
+  ],
+  "trainers": [],
+  "pitches": [],
+  "leads": [
+    {
+      "id": "1780138401356-jyx7mm3bl",
+      "name": "Shaik Rabbani",
+      "phone": "6309392793",
+      "email": "",
+      "source": "walk-in",
+      "interest": "HOT",
+      "status": "Converted",
+      "followUpDate": null,
+      "notes": "Membership created",
+      "pitchDate": "30/05/2026",
+      "leadSource": "walk-in",
+      "createdAt": "2026-05-30T10:53:21.350Z",
+      "updatedAt": "2026-05-30T10:53:33.569Z",
+      "membership": {
+        "plan": "12 Months",
+        "planCategory": "premium",
+        "amount": 17499,
+        "paymentMode": "upi"
+      },
+      "convertedAt": "2026-05-30T10:53:33.509Z",
+      "joinDate": "2026-05-30T10:53:21.350Z"
+    }
+  ],
+  "membershipHistory": [
+    {
+      "id": "450c8674-9cc7-4809-ab2e-1ed794cdee1d",
+      "membershipId": "2fa4064d-53d0-4435-8718-eae554a45c6e",
+      "membershipLabel": "12 Months",
+      "action": "create",
+      "amount": 17499,
+      "paymentMode": "upi",
+      "changes": {
+        "name": "Shaik Rabbani",
+        "phone": "6309392793",
+        "email": "",
+        "category": "premium",
+        "label": "12 Months",
+        "price": 17499,
+        "original": null,
+        "tag": null,
+        "preferredDate": "2026-05-30T00:00:00.000Z",
+        "paymentMode": "upi",
+        "remarks": "12 M"
+      },
+      "occurredAt": "2026-05-30T10:53:33.509Z"
+    },
+    {
+      "id": "43082c43-c4a7-4f0d-927b-2f50832ea2a6",
+      "membershipId": "0ba0927b-f6df-455a-a98f-ff85af73428f",
+      "membershipLabel": "1 Month Premium",
+      "action": "create",
+      "amount": 3500,
+      "changes": {
+        "name": "Plan Template",
+        "phone": "0000000000",
+        "email": "",
+        "category": "premium",
+        "label": "1 Month Premium",
+        "price": 3500,
+        "original": null,
+        "tag": null,
+        "preferredDate": null,
+        "remarks": ""
+      },
+      "occurredAt": "2026-06-17T00:14:03.869Z"
+    },
+    {
+      "id": "681ba944-ef35-4e20-a668-8045f6f250d5",
+      "membershipId": "8416bcf8-f774-48e3-876a-bd075c82d350",
+      "membershipLabel": "3 Months Premium",
+      "action": "create",
+      "amount": 6500,
+      "changes": {
+        "name": "Plan Template",
+        "phone": "0000000000",
+        "email": "",
+        "category": "premium",
+        "label": "3 Months Premium",
+        "price": 6500,
+        "original": null,
+        "tag": null,
+        "preferredDate": null,
+        "remarks": ""
+      },
+      "occurredAt": "2026-06-17T00:14:03.885Z"
+    },
+    {
+      "id": "62f06703-415f-4c16-a6e4-8f2fb4855be8",
+      "membershipId": "b108d511-85e5-4fd2-8087-b5d023bcd007",
+      "membershipLabel": "6 Months Premium",
+      "action": "create",
+      "amount": 10500,
+      "changes": {
+        "name": "Plan Template",
+        "phone": "0000000000",
+        "email": "",
+        "category": "premium",
+        "label": "6 Months Premium",
+        "price": 10500,
+        "original": null,
+        "tag": null,
+        "preferredDate": null,
+        "remarks": ""
+      },
+      "occurredAt": "2026-06-17T00:14:03.892Z"
+    }
+  ],
+  "userMemberships": [],
+  "metrics": {
+    "performance": {
+      "2026-05": {
+        "year": 2026,
+        "month": 5,
+        "targetHistory": [
+          {
+            "target": 50000,
+            "changedAt": "2026-05-30T10:07:23.628Z",
+            "achievement": 0
+          },
+          {
+            "target": 50000,
+            "changedAt": "2026-05-30T10:07:23.636Z",
+            "achievement": 0
+          },
+          {
+            "target": 1000000,
+            "changedAt": "2026-05-30T10:51:42.456Z",
+            "achievement": 0
+          }
+        ],
+        "target": 1000000,
+        "achievedRevenue": 17499,
+        "convertedCount": 1,
+        "averageRevenuePerDay": 583.3,
+        "dailyRevenue": [
+          {
+            "day": 1,
+            "revenue": 0
+          },
+          {
+            "day": 2,
+            "revenue": 0
+          },
+          {
+            "day": 3,
+            "revenue": 0
+          },
+          {
+            "day": 4,
+            "revenue": 0
+          },
+          {
+            "day": 5,
+            "revenue": 0
+          },
+          {
+            "day": 6,
+            "revenue": 0
+          },
+          {
+            "day": 7,
+            "revenue": 0
+          },
+          {
+            "day": 8,
+            "revenue": 0
+          },
+          {
+            "day": 9,
+            "revenue": 0
+          },
+          {
+            "day": 10,
+            "revenue": 0
+          },
+          {
+            "day": 11,
+            "revenue": 0
+          },
+          {
+            "day": 12,
+            "revenue": 0
+          },
+          {
+            "day": 13,
+            "revenue": 0
+          },
+          {
+            "day": 14,
+            "revenue": 0
+          },
+          {
+            "day": 15,
+            "revenue": 0
+          },
+          {
+            "day": 16,
+            "revenue": 0
+          },
+          {
+            "day": 17,
+            "revenue": 0
+          },
+          {
+            "day": 18,
+            "revenue": 0
+          },
+          {
+            "day": 19,
+            "revenue": 0
+          },
+          {
+            "day": 20,
+            "revenue": 0
+          },
+          {
+            "day": 21,
+            "revenue": 0
+          },
+          {
+            "day": 22,
+            "revenue": 0
+          },
+          {
+            "day": 23,
+            "revenue": 0
+          },
+          {
+            "day": 24,
+            "revenue": 0
+          },
+          {
+            "day": 25,
+            "revenue": 0
+          },
+          {
+            "day": 26,
+            "revenue": 0
+          },
+          {
+            "day": 27,
+            "revenue": 0
+          },
+          {
+            "day": 28,
+            "revenue": 0
+          },
+          {
+            "day": 29,
+            "revenue": 0
+          },
+          {
+            "day": 30,
+            "revenue": 17499
+          }
+        ],
+        "lastComputedAt": "2026-05-30T10:54:30.638Z"
+      },
+      "2026-06": {
+        "year": 2026,
+        "month": 6,
+        "targetHistory": [
+          {
+            "target": 50000,
+            "changedAt": "2026-06-13T06:41:12.181Z",
+            "achievement": 0
+          },
+          {
+            "target": 50000,
+            "changedAt": "2026-06-13T06:41:12.207Z",
+            "achievement": 0
+          }
+        ],
+        "target": 50000,
+        "achievedRevenue": 0,
+        "convertedCount": 0,
+        "averageRevenuePerDay": 0,
+        "dailyRevenue": [
+          {
+            "day": 1,
+            "revenue": 0
+          },
+          {
+            "day": 2,
+            "revenue": 0
+          },
+          {
+            "day": 3,
+            "revenue": 0
+          },
+          {
+            "day": 4,
+            "revenue": 0
+          },
+          {
+            "day": 5,
+            "revenue": 0
+          },
+          {
+            "day": 6,
+            "revenue": 0
+          },
+          {
+            "day": 7,
+            "revenue": 0
+          },
+          {
+            "day": 8,
+            "revenue": 0
+          },
+          {
+            "day": 9,
+            "revenue": 0
+          },
+          {
+            "day": 10,
+            "revenue": 0
+          },
+          {
+            "day": 11,
+            "revenue": 0
+          },
+          {
+            "day": 12,
+            "revenue": 0
+          },
+          {
+            "day": 13,
+            "revenue": 0
+          },
+          {
+            "day": 14,
+            "revenue": 0
+          },
+          {
+            "day": 15,
+            "revenue": 0
+          },
+          {
+            "day": 16,
+            "revenue": 0
+          },
+          {
+            "day": 17,
+            "revenue": 0
+          },
+          {
+            "day": 18,
+            "revenue": 0
+          },
+          {
+            "day": 19,
+            "revenue": 0
+          },
+          {
+            "day": 20,
+            "revenue": 0
+          },
+          {
+            "day": 21,
+            "revenue": 0
+          },
+          {
+            "day": 22,
+            "revenue": 0
+          },
+          {
+            "day": 23,
+            "revenue": 0
+          },
+          {
+            "day": 24,
+            "revenue": 0
+          },
+          {
+            "day": 25,
+            "revenue": 0
+          },
+          {
+            "day": 26,
+            "revenue": 0
+          },
+          {
+            "day": 27,
+            "revenue": 0
+          },
+          {
+            "day": 28,
+            "revenue": 0
+          },
+          {
+            "day": 29,
+            "revenue": 0
+          }
+        ],
+        "lastComputedAt": "2026-06-13T06:41:12.207Z"
+      }
+    }
+  }
+}
